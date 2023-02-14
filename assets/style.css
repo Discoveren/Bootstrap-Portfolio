@@ -1,6 +1,42 @@
+:root {
+    --header-color: #ffffff;
+    --primary-color: #2b6777;
+    --secondary-color: #52ab98;
+    --main-radius:5px;
+    --main-padding:5px;  
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  .carousel-item img {
+    height:400px;
+    width: auto;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    height: fit-content;
+  }
+
+  
+  .container {
+    display:grid;
+    background: #2b6777;
+  
+  }
+
 
